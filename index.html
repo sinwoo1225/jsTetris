@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tetris</title>
+  </head>
+  <body>
+    <div class="gameContainer">
+      <button class="gameBtn startBtn ">Start</button>
+      <button class="gameBtn restartBtn hidden">ReStart</button>
+      <canvas id="gameCanvas" class="canvas">
+        <button></button>
+      </canvas>
+      <div class="status-container">
+        <div class="status__levelPanel panel">
+          <h3 class="panel-title">Level</h3>
+          <span class="panel-content">1</span>
+        </div>
+        <div class="status__scorePanel panel">
+          <h3 class="panel-title">Score</h3>
+          <span class="panel-content">0</span>
+        </div>
+      </div>
+    </div>
+    <div class="bigScreen">
+      <span class="bigScreen__text">
+        Please make your screen big! 😱
+      </span>
+    </div>
+    <script src="index.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
