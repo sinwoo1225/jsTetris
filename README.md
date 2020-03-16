@@ -4,6 +4,17 @@ vanila javascript로 구현한 테트리스 게임
 ## 게임플레이
 Link : [gameplay](https://sinwoo1225.github.io/jsTetris/)
 
+## 키조작
+`⬆` : 회전
+
+`⬇` : softdrop
+
+`⬅` : 왼쪽이동
+
+`➡` : 오른쪽이동
+
+`spacebar` : harddrop
+
 ## 사용기술
 <div>
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="200px"/>
@@ -20,3 +31,5 @@ Link : [gameplay](https://sinwoo1225.github.io/jsTetris/)
 >  > Javascript(no Jquery, vanila Javascript)
 
 >  > Canvas API (그래픽)
+
+
